@@ -1,0 +1,22 @@
+{
+  "name": "httprequest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethenalee/W02D1HTTP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethenalee/W02D1HTTP/issues"
+  },
+  "homepage": "https://github.com/Ethenalee/W02D1HTTP#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
