@@ -11,6 +11,6 @@ request.get('https://sytantris.github.io/http-examples/future.jpg')
          console.log('Response Headers: ', response.headers['content-type']);
        })
        .pipe(fs.createWriteStream('./future.jpg'))
-       .on('end', function() {
+       .on('finish', function() {
         console.log('Download complete.');
       });
